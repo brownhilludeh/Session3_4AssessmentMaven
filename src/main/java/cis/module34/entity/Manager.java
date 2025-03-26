@@ -8,6 +8,8 @@ package cis.module34.entity;
 //TODO DONE Issue 1B - Fix syntax issue - extends
 public class Manager extends Employee{
    
+    private String title = "Manager"; 
+    
     public Manager() {
         setTitleManager();
     }
@@ -23,7 +25,7 @@ public class Manager extends Employee{
     }
     
    public final void setTitleManager(){
-       title = "Manager";
+       this.title = "Manager";
    }
     
 }
